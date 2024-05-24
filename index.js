@@ -4,6 +4,8 @@ const cors = require("cors");
 const products = require("./products")
 
 const app = express();
+const mercadopago = require("mercadopago");
+const path = require("path")
 
 app.use(express.json());
 app.use(cors());
