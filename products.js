@@ -1,11 +1,58 @@
+// const products = [
+//     {
+//         id: 1,
+//         name: "iPhone 12 Pro",
+//         desc: "6.1-inch display",
+//         desc2: "",
+//         price: 15000,
+//         off: 12000,
+//         image: "https://maaaik.site/images/iphone12pro.jpg",
+//         quantity: 40,
+//         sold: 4,
+//     },
+//     {
+//         id: 2,
+//         name: "iPhone 12",
+//         desc: "5.4-inch display",
+//         price: 20000,
+//         off: 17000,
+//         image: "https://maaaik.site/images/iphone12.jpg",
+//         quantity: 12,
+//         sold: 8,
+//     },    
+//     {
+//         id: 3,
+//         name: "iPhone 12",
+//         desc: "5.4-inch display",
+//         price: 25000,
+//         off: 21000,
+//         image: "https://maaaik.site/images/iphone12.jpg",
+//         quantity: 25,
+//         sold: 11,
+//     },
+//     {
+//         id: 4,
+//         name: "Galaxy S",
+//         desc: "6.5-inch display",
+//         price: 24000,
+//         off: 18000,
+//         image: "https://maaaik.site/images/galaxyS.png",
+//         quantity: 9,
+//         sold: 3,
+//     },
+// ];
+
 const products = [
     {
         id: 1,
-        name: "iPhone 12 Pro",
-        desc: "6.1-inch display",
+        name: "Máquina Patillera Peluquera Barbera Recargable",
+        desc: "VGR V-081",
+        desc2: "<p>M&aacute;quina cortadora de cabello, patillera, barbera, cuerpo de metal inhal&aacute;mbrica esqueleto barber&iacute;a profesional.</p><ul><li>Barbera.</li><li>Es inal&aacute;mbrica y funciona con bater&iacute;a recargable.</li><li>Posee cabezales lavables.</li><li>Pr&aacute;ctica para llevarla a todos tus viajes.</li><li>Viene con 3 peines.</li><li>Accesorio incluido: aceite lubricante.</li></ul>",
         price: 15000,
         off: 12000,
-        image: "https://maaaik.site/images/iphone12pro.jpg" 
+        image: "https://maaaik.site/images/iphone12pro.jpg",
+        quantity: 40,
+        sold: 4,
     },
     {
         id: 2,
@@ -13,7 +60,9 @@ const products = [
         desc: "5.4-inch display",
         price: 20000,
         off: 17000,
-        image: "https://maaaik.site/images/iphone12.jpg" 
+        image: "https://maaaik.site/images/iphone12.jpg",
+        quantity: 12,
+        sold: 8,
     },    
     {
         id: 3,
@@ -21,7 +70,9 @@ const products = [
         desc: "5.4-inch display",
         price: 25000,
         off: 21000,
-        image: "https://maaaik.site/images/iphone12.jpg" 
+        image: "https://maaaik.site/images/iphone12.jpg",
+        quantity: 25,
+        sold: 11,
     },
     {
         id: 4,
@@ -29,7 +80,9 @@ const products = [
         desc: "6.5-inch display",
         price: 24000,
         off: 18000,
-        image: "https://maaaik.site/images/galaxyS.png" 
+        image: "https://maaaik.site/images/galaxyS.png",
+        quantity: 9,
+        sold: 3,
     },
 ];
 
