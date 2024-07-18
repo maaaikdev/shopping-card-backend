@@ -45,19 +45,27 @@
 const products = [
     {
         id: 1,
-        name: "Máquina Patillera Peluquera Barbera Recargable - V-081",
+        name: "Maquina Patillera Recargable Vgr V-091 Profesional Trimmer",
         desc: "VGR",
         desc2: "<p>M&aacute;quina cortadora de cabello, patillera, barbera, cuerpo de metal inhal&aacute;mbrica esqueleto barber&iacute;a profesional.</p><ul><li>Barbera.</li><li>Es inal&aacute;mbrica y funciona con bater&iacute;a recargable.</li><li>Posee cabezales lavables.</li><li>Pr&aacute;ctica para llevarla a todos tus viajes.</li><li>Viene con 3 peines.</li><li>Accesorio incluido: aceite lubricante.</li></ul>",
         price: 60000,
         off: 85800,
-        image: "https://maaaik.site/images/iphone12pro.jpg",
+        image: [
+            "photos/1/v-091_1.jpg",
+            "photos/1/v-091_2.jpg",
+            "photos/1/v-091_3.jpg",
+            "photos/1/v-091_4.jpg",
+            "photos/1/v-091_5.jpg",
+            "photos/1/v-091_6.jpg",
+            "photos/1/v-091_7.jpg"
+        ],
         quantity: 40,
         sold: 4,
-        boxState: 75
+        boxState: 100
     },
     {
         id: 2,
-        name: "Cepillo Secador Y Alisador 3 En 1 Ref 2060 Salon Hair Care",
+        name: "Cepillo secador y alisador 3 en 1 ref 2060 salon hair care",
         desc: "Remginton",
         desc2: "<ul><li>Potencia de un secador, volumen de un estilista. Menos tiempo y menos da&ntilde;os.</li><li>Cepillo RE 2060 dise&ntilde;o Forma &uacute;nica para alisar el cabello, mientras que los bordes redondos crean volumen Ajustes de calor para una flexibilidad de dise&ntilde;o. - El cepillo est&aacute; dise&ntilde;ado con perno de nailon y cerdas de pelo para desenredar f&aacute;cilmente y sujetar mejor el cabello.</li><li>Para obtener resultados m&aacute;s r&aacute;pidos, seque el pelo con una toalla para eliminar el exceso de agua y luego peine el cabello h&uacute;medo para desenredar y obtener los mejores resultados.</li></ul>",
         price: 57000,
@@ -69,7 +77,7 @@ const products = [
     },    
     {
         id: 3,
-        name: "Cortadora de Pelo y Barba Ref GM 6032",
+        name: "Cortadora de pelo y barba ref GM 6032",
         desc: "Progemei",
         desc2: "<ul><li>Recortador de cabello y barba.</li><li>Dise&ntilde;o ergon&oacute;mico.</li><li>Hoja de acero inoxidable.</li><li>Motor de aleaci&oacute;n de Pd plateado de alta velocidad de rotaci&oacute;n.</li><li>Interruptor tipo presi&oacute;n.</li><li>Luz indicadora de carga.</li></ul>",
         price: 47000,
@@ -81,7 +89,7 @@ const products = [
     },
     {
         id: 4,
-        name: "Picadora Hielo Raspados Cholados Triturador Hielo",
+        name: "Picadora hielo raspados cholados triturador hielo",
         desc: "--------",
         desc2: "<ul><li>Trituradora de hielo para triturar cubitos de hielo en hielo esponjoso como la nieve.</li><li>F&aacute;cil de usar, f&aacute;cil de limpiar, f&aacute;cil de transportar y f&aacute;cil de almacenar.</li></ul><p>El dise&ntilde;o port&aacute;til de funcionamiento manual de manivela te ayuda a obtener hielo afeitado, conos de nieve para bebidas divertidas incluso al aire &uacute;ltima intervensi&oacute;n sin electricidad</p>",
         price: 60000,
@@ -105,7 +113,7 @@ const products = [
     },
     {
         id: 6,
-        name: "Mini Lavadora Portátil Giratoria Turbina Ultrasónica Viaje Color Blanco 110v",
+        name: "Mini lavadora portátil giratoria turbina ultrasónica viaje color blanco 110v",
         desc: "--------",
         desc2: "<p>La lavadora OEM HOG.64 har&aacute; que el lavado diario sea m&aacute;s sencillo. Evitar&aacute; los residuos de detergente, dejar&aacute; tu ropa impecable sin da&ntilde;arla y te permitir&aacute; ahorrar tiempo.</p><p>Trabaja sola &Uacute;nicamente necesita que se introduzcan los productos de limpieza y se elija el programa deseado. A diferencia de las semiautom&aacute;ticas, no requiere que est&eacute;s presente en todas las etapas del proceso, por lo que tendr&aacute;s prendas limpias y perfumadas sin esfuerzo.</p>",
         price: 29000,
@@ -117,7 +125,7 @@ const products = [
     },
     {
         id: 7,
-        name: "Maquina De Peluqueria a Profesional - V-220",
+        name: "Maquina de peluqueria a profesional - V-220",
         desc: "VGR",
         desc2: "<ul><li>Pantalla LED: porcentaje de potencia</li><li>Carcasa de metal completa</li><li>Ergon&oacute;mica y f&aacute;cil de usar</li><li>Dise&ntilde;o inal&aacute;mbrico y port&aacute;til</li><li>Bater&iacute;a de litio recargable CONTENIDO</li><li>Cable de carga USB</li><li>Peines gu&iacute;a de corte (2-0.118-0.157 in)</li><li>Tapa de protecci&oacute;n</li><li>Cepillo de limpieza</li></ul>",
         price: 140000,
@@ -125,11 +133,11 @@ const products = [
         image: "https://maaaik.site/images/galaxyS.png",
         quantity: 9,
         sold: 3,
-        boxState: 75
+        boxState: 20
     },
     {
         id: 8,
-        name: "Multimedia Speaker MS - 3604bt",
+        name: "multimedia speaker MS - 3604bt",
         desc: "--------",
         desc2: "<ul><li>Este altavoz inal&aacute;mbrico Bluetooth para fiestas tiene una potencia m&aacute;xima de 5 W con un altavoz de 2 &Prime; para una reproducci&oacute;n de sonido est&eacute;reo envolvente de rango completo y una respuesta de graves impresionante.</li><li>Entonces, puedes hacer una fiesta rockera y escuchar tus canciones favoritas tan fuerte como quieras.</li><li>El altavoz port&aacute;til para fiestas cuenta con m&uacute;ltiples modos de luz RGB para cada estado de &aacute;nimo, lo que crea un espect&aacute;culo de luces cautivador para sorprender a la multitud con una experiencia visual duradera.</li><li>Ideal para fiestas/reuniones nocturnas donde destaca una presencia brillante</li><li>Este sistema de altavoces de alta potencia es compatible con Bluetooth para transmisi&oacute;n de audio inal&aacute;mbrica y funciona con dispositivos como iPhone, tel&eacute;fono m&oacute;vil Android, iPad, tableta y computadora port&aacute;til. Ideal para uso personal en interiores y exteriores.</li><li>Un potente sistema de altavoces para llevar a cualquier parte con todas las caracter&iacute;sticas necesarias para organizar fiestas como ning&uacute;n otro</li><li>Prep&aacute;rate para divertirte y prep&aacute;rate para la fiesta.</li><li>Perfecto para peque&ntilde;as reuniones, sesiones de m&uacute;sica personales y viajes al aire libre.</li><li>Altavoz multimedia equipado con radio FM, conectividad USB y Bluetooth que te permite escuchar tu m&uacute;sica favorita de diversas formas</li></ul>",
         price: 35000,
